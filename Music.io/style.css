@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+         width: 40%;
+         height: 35rem;
+         margin-top: 2%;
+         min-width: 20rem;
+         color: white;
+        
+}
+
+.logo{
+    width: 5rem;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-bottom:5rem;
+    top: 8%;
+    transform: translateX(-50%);
+}
+#logo{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 10%;
+    filter: drop-shadow(5px 5px 15px black);
+    
+}
+input{
+    margin-bottom: 5%;
+    height:2.3rem ;
+    border-radius: 5pt;
+    padding: 1%;
+}
+#email{
+    width: 100%;
+    
+    
+
+
+}
+h2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25pt;
+    margin-bottom: 15%;
+}
+label{
+    color: white;
+    width: 20%;
+    margin-bottom: 3%;
+}
+
+.entradas{
+    margin-top: 15%;
+    position: relative;
+    width: 60% ;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.botoes{
+   
+}
+.btn{
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    
+}
+footer{
+    width: 15%;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-style: italic;
+    font-weight: 450;
+}
