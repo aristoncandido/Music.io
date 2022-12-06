@@ -4,6 +4,8 @@
     box-sizing: 0;
 }
 .container{
+
+
          width: 40%;
          height: 35rem;
          margin-top: 2%;
@@ -11,7 +13,52 @@
          color: white;
         
 }
+.popup{
 
+    background-color: rgb(35, 33, 33);
+    color:  white;
+    width: 50%;
+    border-radius: 15pt;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    display: none;
+  
+    transition: 0.8s;
+    padding: 2%;
+
+
+}
+#close{
+    text-align: center;
+    position: relative;
+    width: 2.5rem;
+    left: 1.2rem;
+    opacity: 90%;
+    top: -0.8rem;
+  
+}
+
+
+.popup h1{
+    margin-bottom: 2%;
+
+    color: rgb(0, 234, 255);
+    
+}
+.popup hr {
+
+    margin-bottom: 2%;
+    
+
+    
+}
+.popup p{
+    
+    margin: 0 auto;
+}
 .logo{
     width: 5rem;
     height: auto;
@@ -34,11 +81,29 @@ input{
     border-radius: 5pt;
     padding: 1%;
 }
+.perfil{
+
+     position: relative;
+     top: 5%;
+}
+
+.foto_perfil{
+    width: 5rem;
+    margin: 2% auto 0 auto ;
+ 
+}
+
+
+
+#gravatar{
+    width: 7rem;
+    height: 7rem;
+    transition: 0.8s;
+    border-radius: 50%;
+}
+
 #email{
     width: 100%;
-    
-    
-
 
 }
 h2{
@@ -62,15 +127,22 @@ label{
     transform: translateX(-50%);
    
 }
+
 .botoes{
+
+  
+    width: 40%;
+    margin: 0 auto;
    
 }
 .btn{
-    width: 30%;
+    width: 50%;
     position: relative;
     left: 50%;
+    right: 50%;
     transform: translateX(-50%);
     margin-top: 5%;
+    transition: 0.3s;
     
 }
 footer{

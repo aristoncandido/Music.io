@@ -11,10 +11,19 @@
 </head>
 <body>
     
-    <section class="container bg-dark rounded-5"> 
-        <div class="logo">
-                <img id ="logo"src="./imgs/logo-spotify.png" alt="">
+    <section class="container bg-dark rounded-5" id="caixa"> 
+   
+
+        <div class="perfil">
+                   
+             <div class="foto_perfil">
+                             
+                <img src="./imgs/gravatar.png" id="gravatar" alt="avatar">
+             </div>
+                  
         </div>
+      
+        
         <div class="entradas">
             <h2>Sign In</h2>
             <div>
@@ -28,9 +37,13 @@
           
 
         </div>
-        <div class="botoes">
-            <input type="button" value="Login" class="btn btn-success">
+        <div class="botoes"  onmouseenter="enganar()" onmouseout="corrigir()"  >
+           
+                <input type="button"  value="Login" class="btn btn-success "   id="logar">
 
+
+            
+          
         </div>
      
 
@@ -39,6 +52,22 @@
     <footer>
         <p> Feito por Ariston Cândido</p>
     </footer>
+
+
+    <div class="popup">
+       <input type="button" value="X" id="close" class="btn btn-danger" >
+        <h1>Erro</h1>
+        <hr>
+        <p>
+            Verifique os dados colocados nos espaços e tente novamente !
+        </p>
+  
+
+
+
+
+
+    </div>
 
 <script src="script.js"></script>
 </body>
